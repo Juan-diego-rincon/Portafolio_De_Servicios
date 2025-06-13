@@ -51,6 +51,7 @@ body {
     margin: 0;
     background: linear-gradient(90deg, #64ffda, #ccd6f6);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     flex: 1;
     min-width: 300px;
