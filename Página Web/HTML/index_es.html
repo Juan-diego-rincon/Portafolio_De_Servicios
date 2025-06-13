@@ -46,10 +46,8 @@
                 <ul>
                     <li>
                         <a href="#3D">3D</a>
-                        <ul>
-                            <li><a href="#mod_3D">Modelado 3D</a></li>
-                            <li><a href="#shad_3D">Shaders 3D</a></li>
-                        </ul>
+                        <a href="#mod_3D">Modelado 3D</a>
+                        <a href="#shad_3D">Shaders 3D</a>
                     </li>
                     <li><a href="#textos">Textos Estilizados</a></li>
                     <li><a href="#animaciones">Animaciones y motion design</a></li>
@@ -108,9 +106,11 @@
     <!-- Descarga del curriculum -->
     <h3 id="descargarlo">Descarga mi curriculum</h3>
     <p>Si deseas ver mi curriculum completo, puedes descargarlo haciendo click en el siguiente botón:</p>
-    <a href="/Assets Portafolio/curriculum.pdf" download>
-        <button>Descargar Curriculum</button>
-    </a>
+    <div id="div_boton_descargar">
+        <a href="/Assets Portafolio/curriculum.pdf" download>
+            <button>Descargar Curriculum</button>
+        </a>
+    </div>
     <!-- Portafolio -->
     <h2 id="portafolio">Portafolio</h2>
     <p>En esta sección encontrarás una selección de mis proyectos más destacados. Cada uno refleja mi 
@@ -139,16 +139,26 @@
         <!-- textos estilizados-->
         <h2 id="textos">Textos estilizados</h2>
         <p>En esta sección encontrarás algunos textos estilizados, estos son solo ejemplos, todo es completamente personalizable</p>
+        
         <div class="imgs_textos">
-            <h3>Outline text</h3>
-            <img src="/Assets Portafolio/Illustrator/Textos/Outline Text.png" alt="Texto con contorno">
-            <p>Este texto fue realizado en Adobe Illustrator, con un estilo de contorno, el cual se puede personalizar 
-                con diferentes colores y grosores</p>
-
+            <div id="img_texto_outline">
+                <h3>Outline text</h3>
+                <img src="/Assets Portafolio/Illustrator/Textos/Outline Text.png" alt="Texto con contorno">
+                <p>
+                    Este texto fue realizado en Adobe Illustrator, con un estilo de contorno, el cual se puede personalizar 
+                    con diferentes colores y grosores
+                </p>
+            </div>
             <br>
-            <h3>Letra con decoración</h3>
-            <img src="/Assets Portafolio/Illustrator/Textos/Letra estilizada.png" alt="Texto con decoración">
-            <p>Este texto fue realizado en Adobe Illustrator, el cual se puede personalizar con diferentes textos y estilos</p>
+            
+            <div id="img_texto_decoracion">
+                <h3>Letra con decoración</h3>
+                <img src="/Assets Portafolio/Illustrator/Textos/Letra estilizada.png" alt="Texto con decoración">
+                <p>
+                    Este texto fue realizado en Adobe Illustrator, el cual se puede 
+                    personalizar con diferentes textos y estilos
+                </p>
+            </div>
         </div> 
         
         <!-- Animaciones y Motion Design -->
@@ -221,8 +231,8 @@
                 tarjeta de presentación y el poster.
             </p>
             <div id="imgs_otros">
-                <img src="/Assets Portafolio/Illustrator/Mockups/tarjeta_sola.png" alt="Tarjeta de presentación">
-                <img src="/Assets Portafolio/Illustrator/Mockups/Sin título-5.png" alt="Poster">
+                <img src="/Assets Portafolio/Illustrator/Mockups/tarjeta_sola.png" alt="Tarjeta de presentación" id="tarjeta_presentacion">
+                <img src="/Assets Portafolio/Illustrator/Mockups/Sin título-5.png" alt="Poster" id="poster">
             </div>
         </section>
 

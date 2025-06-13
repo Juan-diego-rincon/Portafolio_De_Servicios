@@ -166,7 +166,7 @@ p {
 }
 
 img {
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
     transition: var(--transition);
     border-radius: 8px;
@@ -307,12 +307,27 @@ section::before {
 #imgs_variaciones img,
 #fichas_tecnicas img,
 #imgs_mockups img,
-#foto_mia,
-#imgs_otros img {
+#foto_mia{
     max-width: 300px;
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#tarjeta_presentacion {
+    background: rgba(17, 34, 64, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(2, 12, 27, 0.5);
+    text-align: center;
+}
+
+#poster {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(2, 12, 27, 0.5);
+    margin-top: 20px;
 }
 
 .imgs_textos img:hover,
