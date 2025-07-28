@@ -569,8 +569,14 @@ footer {
         margin: 20px 5%;
         padding: 25px;
     }
-    
-    .videos_modelos_3D video,
+
+    .videos_modelos_3D{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 30px;
+    }
     .animaciones video {
         width: 100%;
         max-width: 100%;
